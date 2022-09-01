@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <style>
+       
+       .row__position{
+            height: 600px;
+       }
+
+       .hr{
+            height:10px; 
+            width:10%;
+       }
+
+       .col__position{
+            padding: 120px 50px;
+       }
+
+       .col--background--galaxy{
+         background-image: url('img/galaxy.png');
+       }
+
+    </style>
+</head>
+<body>
+
+<div class="container my-5 shadow-lg">
+    <div class="row row__position">
+        <div class="col text-white py-5 align-middle col--background--galaxy">
+            <div class="header mx-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/></svg>
+                <h1 class="small d-inline align-bottom">COMPANY NAME</h1>
+            </div>
+
+            <div class="content col__position text-center">
+                <h5>Nice to see you again</h5>
+                <h1 class="display-5">WELCOME BACK</h1>
+                <hr class="hr m-auto bg-white rounded-5">
+                <p class="small px-5 py-2"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae nesciunt eius temporibus enim dolore beatae aut velit reiciendis aperiam minus, optio architecto tempore distinctio culpa!</p>
+            </div>
+        </div>
+        
+        <div class="col col__position text-center">
+            <p class="h3 text-primary">Login account</p>
+            <p class="small text-secondary px-5 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus illum doloremque animi quos ad, molestias nobis harum magni distinctio. Deleniti!</p>
+
+            <div class="login w-75 m-auto">
+                <input type="email" class="form-control my-3" placeholder="Email ID">
+                <input type="password" class="form-control my-3" placeholder="Password">
+
+                <div class="login_ask d-flex justify-content-between">
+                    <p class="small text-secondary"><input class="form-check-input mx-2" type="checkbox">Keep me signed in</p>
+                    <a href="" class="small text-decoration-none ">Already a member?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 my-3 rounded-5">S U B S C R I B E</button>
+            </div>
+        </div>
+    </div>
+</div>
+   
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html
